@@ -1,0 +1,109 @@
+export(north.arrow)
+export(place.item)
+export(scale.bar)
+#S3method(affineShift,SpatialLines)
+export(affineShift.SpatialLines)
+#export(aggregate.formula)
+
+export(bufferPoints)
+
+export(makeGraph)
+export(makeGraph.list)
+
+export(iterModel)
+export(parseCalls)
+export(getRunorder)
+export(runFun)
+export(feedTimestepData)
+S3method(as.data.frame,imodel)
+S3method(t,imodel)
+export(findMissingVar)
+
+export(autoEdges)
+export(ls.fun)
+
+export(isParetoOptimal)
+
+export(fill.template)
+export(templateInheritanceGraph)
+
+export(
+	getBOMDaily,
+	getBOMYears,
+	getBOMQuarters
+)
+export(mergeBOMQuarters)
+export(getBOMMonths)
+export(mergeBOMMonths)
+export(daylight)
+export(total_daylight)
+
+S3method(months,ts)
+
+
+export(GetAlternateYear)
+export(GetFinancialYear)
+
+export(GetAlternateYearDays)
+
+export(GetQuarterLengths)
+export(GetMonthLengths)
+
+## also see other merge_?
+export(merge.many)
+
+export(placeLabel)
+export(placeLabels)
+export(getLabelPos)
+
+##########################
+## pavingBounds
+
+export(pavingBounds)
+export(test.vertices)
+export(test.bounds)
+export(
+ eval.interval,
+ eval.intervalO,
+ eval.intervalD,
+ eval.intervalLHS,
+ eval.intervalM
+)
+
+import(lattice)
+import(grid)
+S3method(plot,bounds_paving)
+export(panel.paving)
+export(panel.chull)
+export(chull.bounds_paving)
+S3method(xyplot,bounds_paving)
+S3method(simulate,bounds_paving)
+S3method(print,bounds_paving)
+export(inside)
+S3method(update,bounds_paving)
+
+export(
+       square.bounds,
+       box.bounds)
+export(subset.box)
+
+##########################
+
+export(concat)
+export(new.cache)
+export(time.cache)
+export(get.cache)
+
+## lattice
+export(textRect)
+export(
+ panel.insetplot1,
+ panel.insetplot,
+ insetplot
+)
+
+## rcdd
+export(h.equations)
+export(membership)
+export(membershipQ)
+export(is.exteriorQ)

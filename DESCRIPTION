@@ -1,0 +1,13 @@
+Package: jgutils
+Type: Package
+Title: Misc utils by Joseph Guillaume
+Version: 1.3
+Date: 2010-07-02
+Author: Joseph Guillaume
+Maintainer: <joseph.guillaume@anu.edu.au>
+Description: Cartography, Integrated Modelling, Text templates with inheritance, Uncertainty
+Imports: grid,lattice
+Suggests: rgdal
+License: GPL
+LazyLoad: yes
+
